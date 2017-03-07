@@ -1,0 +1,5 @@
+<h1>This is the task page</h1>
+
+<p>This is the task <%= @task.name %>, its priority is <%= @task.priority %>, and it is <%= @task.done ? "done": "not done"  %></p>
+
+<p><%= link_to "Back to home", tasks_path %></p>

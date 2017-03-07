@@ -1,0 +1,6 @@
+<%= form_for(@task) do |f| %>
+  <%= f.text_field :name, placeholder: "name of the task" %>
+  <%= f.text_field :done, placeholder: "due date of the task" %>
+  <%= f.text_field :priority, placeholder: "priority of the task" %>\
+  <%= f.submit%>
+<% end %>
